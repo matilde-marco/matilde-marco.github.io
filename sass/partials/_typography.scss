@@ -32,7 +32,7 @@ $responsive-h1: 40px;
 // Line height
 
 // $base-line-height: 29px;
-$base-line-height: 20px;
+$base-line-height: 30px;
 
 // Styles
 
@@ -43,17 +43,13 @@ p {
   font-size: $font-size-p;
   line-height: $base-line-height;
   color: $txt-primary;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 
   // line-height: $base-line-height * 0.5;
 
   @media screen and (max-width: 768px) {
-    line-height: $base-line-height * 0.45; // Adjust the line height for smartphones
+    line-height: $base-line-height * 0.5; // Adjust the line height for smartphones
   }
-  
-  // @media screen and (max-width: 480px) {
-  //   line-height: $base-line-height * 1.5; // Adjust the line height further for smaller screens
-  // }
 }
 
 h1 {
